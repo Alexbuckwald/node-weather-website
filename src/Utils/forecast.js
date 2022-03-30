@@ -1,12 +1,5 @@
 const request = require('request')
 
-// Include new data
-// Update forecast string
-// Commit changes
-// Push Changes to Github and Deploy
-// Test your work in the live application
-
-
 const forecast = (latitude,longitude, callback) => {
 	
 	const url = 'http://api.weatherstack.com/current?access_key=6b75565ca4b4f6dc747336b9bf67c234&query='+encodeURIComponent(latitude)+','+encodeURIComponent(longitude)
